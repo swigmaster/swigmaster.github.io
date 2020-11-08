@@ -8,27 +8,27 @@
         },
         {
             "title": "Introduction",
-            "filename": "../../introduction/introduction.md"
+            "filename": "/introduction/introduction.md"
         },
         {
             "title": "Lab 1: Setup the Environment",
-            "filename": "../../setup/setup.md"
+            "filename": "/setup/setup.md"
         },
         {
             "title": "Lab 2: Enable Service Logs",
-            "filename": "../../infralog/infralog.md"
+            "filename": "/infralog/infralog.md"
         },
         {
             "title": "Lab 3: Create Custom Application Logs",
-            "filename": "../../applog/applog.md"
+            "filename": "/applog/applog.md"
         },
         {
             "title": "Lab 4: Search Your Logs",
-            "filename": "../../search/search.md"
+            "filename": "/search/search.md"
         },
         {
             "title": "Lab 5: Export Log Content to Object Storage",
-            "filename": "../../export/export.md"
+            "filename": "/export/export.md"
         }
     ]
 }
