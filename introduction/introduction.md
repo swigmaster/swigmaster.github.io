@@ -25,10 +25,10 @@ In this workshop, you will:
 
 ### Prerequisites
 
-* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account.
+* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account.  You may obtain a Free Trial account by following the instructions in the next section.
 
 
-You may proceed to the Lab 1.
+To sign up for a Free Trial account proceed to the next section.  If you already have an account, you may proceed to Lab 1.
 
 ## Learn More
 
