@@ -108,7 +108,7 @@ Log content archived to Object Storage is aggregated via batches (default every 
 
 ## Acknowledgements
 * **Author** - Randall Barnes, Solution Architect, OCI Observability Team
-* **Last Updated Date** - Kamryn Vinson, October 2020
+* **Last Updated Date** - November, 2020
 
 
 ## Need Help?
