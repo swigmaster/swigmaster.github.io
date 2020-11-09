@@ -65,7 +65,7 @@ In this step you will create a **Service Connector** to export Log content to th
     
     ![Service Connector](images/create-service-connector-3.png)
 
-6. The Connector Service provides an option to automatically create the security policy (permissions) required for this connector job to export data.  Click **Create** in the box as shown in the image below.  **Note**: depending on your account type and previous setup steps, these permissions may have already been implicitly created.  In that case this option will not be presented and it's safe to proceed to the next item.
+6. The Connector Service provides an option to automatically create the security policy (permissions) required for this connector job to export data.  Click **Create** in the box as shown in the image below.  **Note**: depending on your account type and previous setup steps, these permissions may have already been implicitly created.  In that case this option will not be presented and it's safe to proceed to the next task.
     
     ![Service Connector](images/create-service-connector-4.png)
 

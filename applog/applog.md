@@ -26,7 +26,7 @@ In this lab, you will:
 
 An agent configuration provides instructions for both the Logging Service and a specific group of deployed agents to work together.  It is required for custom logs.  Follow these steps to create an agent configuration that will include importing syslog messages from our virtual machine created in Lab 1.
 
-1. Open the navigation menu. Under Solutions and Platform, go to Logging, and then click Logs.  Under List Scope, Compartment, choose logservicedemo.  Select **Create Custom Log** to open the panel
+1. Open the navigation menu. Under Solutions and Platform, go to Logging, and then click Logs.  Under List Scope, Compartment, choose logservicedemo.  Select **Create Custom Log** to open the Create panel.
 
     ![Custom Log](images/create-custom-log.png)
 

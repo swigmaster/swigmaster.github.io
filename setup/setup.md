@@ -74,7 +74,7 @@ Dynamic groups allow you to assign permissions to Virtual Machines and allow the
 
       ![IAM Policies](images/iam-policies.png)
    
-8. Click **Create**, name your new policy "logservicedg" and give it a brief description.  For **Compartment** select "logservicedemo".
+8. Click **Create**, name your new policy "logdemopolicy" and give it a brief description.  For **Compartment** select "logservicedemo".
  
       ![Create Policy Wizard](images/create-policy.png)
 
@@ -137,7 +137,7 @@ A **Virtual Cloud Network** (**VCN**) defines a private network in your cloud en
 
 11. Click **Add Route Rules** button to complete the process.
 
-12.  Finally, we will create a **Subnet** within the **VCN** to identify IP space to deploy a VM.  In the VCN details page, select **Subnets** in the left column and click the **Create Subnet** button.
+12.  Finally, we will create a **Subnet** within the **VCN** to identify IP space to deploy a VM.  In the VCN details page (you may need to navigate back to the **Virtual Cloud Networks** --> **logservicevcn** details page), select **Subnets** in the left column and click the **Create Subnet** button.
 
       ![Create Subnet](images/create-subnet.png)
 
