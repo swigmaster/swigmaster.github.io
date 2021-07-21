@@ -99,7 +99,7 @@ Container Engine for Kubernetes (OKE) is an Oracle-managed container orchestrati
 
 2. Open the Main Menu, Navigate to **Developer Services** --> **Kubernetes Clusters (OKE)**
 
-      ![OKE Service](images/select-oke.png)
+      ![OKE Service](images/Select-OKE.png)
 
 3. Ensure **Compartment** devlivedemo is selected in the drop down box on the left navigation bar.
 
