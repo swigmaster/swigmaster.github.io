@@ -4,7 +4,7 @@
     "tutorials": [
         {
             "title": "Introduction",
-            "filename": "/introduction/introduction.md"
+            "filename": "https://github.com/swigmaster/swigmaster.github.io/devlive-juillet21/introduction/introduction.md"
         },
         {
             "title": "Prerequisites",
@@ -12,15 +12,15 @@
         },
         {
             "title": "Lab 1: Setup the Environment",
-            "filename": "/setup/setup.md"
+            "filename": "https://github.com/swigmaster/swigmaster.github.io/devlive-juillet21/setup/setup.md"
         },
         {
             "title": "Lab 2: OKE Apps and OCI Logging Service",
-            "filename": "/oke-logging/okelogging.md"
+            "filename": "https://github.com/swigmaster/swigmaster.github.io/devlive-juillet21/oke-logging/okelogging.md"
         },
         {
             "title": "Lab 3: OKE Apps and OCI Monitoring Service",
-            "filename": "/oke-monitoring/okemonitoring.md"
+            "filename": "https://github.com/swigmaster/swigmaster.github.io/devlive-juillet21/oke-monitoring/okemonitoring.md"
         }
         
     ]
