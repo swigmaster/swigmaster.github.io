@@ -83,7 +83,7 @@ Dynamic groups allow you to assign permissions to Virtual Machines and allow the
     ```
    Allow dynamic-group devlivedg to use log-content in compartment devlivedemo
    Allow dynamic-group devlivedg to use metrics in compartment devlivedemo
-   Allow dynamic-group devlivedg to manage functions-family in in compartment devlivedemo
+   Allow dynamic-group devlivedg to manage functions-family in compartment devlivedemo
     ```
       ![Customize - Advanced](images/customize-advanced.png)
    
