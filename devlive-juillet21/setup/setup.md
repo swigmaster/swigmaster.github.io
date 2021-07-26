@@ -168,7 +168,7 @@ Ensure **Cloud Shell Access** is selected.  You should be able to skip Step 1, u
 
 Click **Close** to exit the Access Your Cluster dialog.
 
-Continue implementing steps 2 and 3 listed in the **Quick Start: Deploy Sample App** dialog.  This will verify connectivity to your cluster and the deploy apps from your Cloud Shell session.
+Continue implementing steps 2 and 3 listed in the **Quick Start: Deploy Sample App** dialog.  This will verify connectivity to your cluster and the ability to deploy apps from your Cloud Shell session.
 
 ![Continue QuickStart](images/Continue-Quick-Start.png)
 
