@@ -62,7 +62,7 @@ Dynamic groups allow you to assign permissions to Virtual Machines and allow the
 4. Next we will create **Matching Rules** to select which Virtual Machines should be included in this Dynamic Group.  In a production environment, you may be very selective about the specific Virtual Machines that may be included in this group to strictly limit the permissions they inherit.  In this workshop, we will create a rule to include all Virtual Machines within the devlivedemo Compartment created in Step 1.  **Add the following statement** in the **Matching Rules** --> **RULE 1** box. Note: change the OCID to match your OCID recorded in Step 1, keeping the single quotes surrounding this value.  If you no longer have this OCID readily available, it may be obtained by navigating to the **Identity** --> **Compartments** --> **devlivedemo** property page.  
 
     ```
-    instance.compartment.id = 'ocid1.compartment.oc1..aaaaaaaaakqxljn2xvohyoe5hdpcabnpfitoh3ef3sjcnjfzjhfi2nbgv3yq'
+    instance.compartment.id = 'ocid1.compartment.oc1..aaaaaa-YOUR-ACTUAL-COMPARTMENT-OCID-cnjfzjhfi2nbgv3yq'
     ```
       ![Create Dynamic Group Wizard](images/dynamic-group-wizard-2.png)
 
@@ -113,9 +113,16 @@ Container Engine for Kubernetes (OKE) is an Oracle-managed container orchestrati
 
       ![Quick Create](images/quick-create.png)
 
-6.  On the **Quick Create Cluster** details page keep the default settings, or optionally choose a custom cluster name, worker node shape, etc.  Select **Next** to review.
+6.  On the **Quick Create Cluster** details page keep the default settings, or optionally choose a custom cluster name, worker node shape, etc.  
 
       ![Quick Create Properties](images/cluster-defaults.png)
+
+**Optional:** Since this is a non-production evaluation cluster, consider reducing the number of worker nodes as shown below to minimize the deployment of underutilized resources. Cloud computing allows for easy scaling up (and down!) to match your exact resource requirements.
+
+![Quick Create Properties](images/Node-Count.png)
+
+Select **Next** to review.
+
 
 7.  In the **Quick Create Cluster** review page, select **Create Cluster** to launch the deployment.
 
