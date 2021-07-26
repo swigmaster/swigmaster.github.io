@@ -34,7 +34,7 @@ Let's review the example application source files and observe the specific addit
 
 **1. Review the deployment files** 
 
-In your Cloud Shell, navigate to the **OKE-Monitoring** subdirectory downloaded in the Setup Lab and view the contents.
+In your Cloud Shell, navigate to the **oke-monitoring** subdirectory downloaded in the Setup Lab and view the contents.
 
 ```
 $ cd ~/devlive-hol/oke-monitoring/
@@ -69,19 +69,19 @@ https://telemetry-ingestion.*eu-frankfurt-1*.oraclecloud.com
 
 Some more examples:
 
-For Ashburn:
+Example for Ashburn:
 
       https://telemetry-ingestion.us-ashburn-1.oraclecloud.com
 
-For Phoenix:
+Example for Phoenix:
 
       https://telemetry-ingestion.us-phoenix-1.oraclecloud.com
 
-For London:
+Example for London:
 
       https://telemetry-ingestion.eu-london-1.oraclecloud.com
 
-For Tokyo:
+Example for Tokyo:
 
       https://telemetry-ingestion.ap-tokyo-1.oraclecloud.com
 
@@ -117,7 +117,7 @@ Verify the application container is online and healthy by executing the followin
 $ kubectl get deployments devlive-metric
 ```
 
-You should recveive a response similar to the following.  If not, skip down to the troubleshooting section.  
+You should recveive a response similar to the following.  You may need to wait a few more seconds for the **READY** status to indicate the deployment is active.  
 
 ```
 NAME               READY   UP-TO-DATE   AVAILABLE   AGE
@@ -171,7 +171,7 @@ Finally, select **Save alarm** to complete the process.
 
 ![Alarm](images/Alarm-07.png)
 
-**Congratulations** You have completed this section and the Hands On Lab!
+**Congratulations** You have completed this section and the Hands On Lab!  If your are done testing, consider terminating your OKE cluster to conserve your free credits.
 
 
 ## Learn More
