@@ -79,7 +79,7 @@ In **GROUP TYPE** select Dynamic Group, and in the **GROUP** box select the grou
 
 **Note** Your screen may give you the option to create a policy to allow resources to use the logging service.  This was already performed in Lab 1, but go ahead and click **Create** to dismiss the prompt.
 
-4.  In the **Configure Log Inputs** section choose **INPUT TYPE** Log Path, **INPUT NAME**  oke-applogs, and for **FILE PATHS** use the following path:
+4.  In the **Configure Log Inputs** section choose **INPUT TYPE** Log Path, **INPUT NAME**  okeapplogs, and for **FILE PATHS** use the following path:
 
 ```
 /var/log/pods/default_*/*/*.log  
@@ -106,13 +106,13 @@ Next we will review simple application code examples that you, as a developer, c
 
 **1. Review the deployment files** 
 
-Navigate to the **OKE-Logging** subdirectory downloaded in the Setup Lab and view the contents.
+Navigate to the **devlive/oke-logging** subdirectory downloaded in the Setup Lab and view the contents.
 
 ```
 $ cd ~/devlive-hol/oke-logging/
 $ ls
 
-   devlive-logger.py  devlive-logger.yaml
+   devlive-logger.py  devlive-logger.yaml  Dockerfile  src
 ```
 Let's examine the Python source:
 
@@ -185,7 +185,7 @@ Navigate to **logging service** --> **logs** and select your custom log **custom
 
 ![Custom Log](images/Select-Custom-Log.png)
 
-By this time you should be able to view log messages.  **Note:** there could be an ingestion delay of up to a few minutes.
+By this time you should be able to view log messages.  **Note:** there could be an initial ingestion delay of up to a few minutes. 
 
 ![Custom Log](images/Explore-Custom-Log.png)
 
