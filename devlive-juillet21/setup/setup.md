@@ -3,7 +3,7 @@
 ## Introduction
 This lab walks you through the steps to configure your cloud environment, define security and access controls, and create an Oracle Container Engine for Kubernetes (OKE) cluster.
 
-Estimated Lab Time: 10 minutes
+Estimated Lab Time: 15 minutes
 
 ### Objectives
 
@@ -128,7 +128,7 @@ Select **Next** to review.
 
       ![Quick Create Review](images/create-cluster-2.png)
 
-8.  The cluster deployment process may take 2 or 3 minutes to complete.  In the meantime, let's move on to the final step of your cloud environment setup.
+8.  The cluster deployment process may take a few minutes to complete.  In the meantime, let's move on to the final step of your cloud environment setup.
 
  
 ## **STEP 4:** Launch Cloud Shell
@@ -155,7 +155,7 @@ Unzip the package by executing the following command:
     unzip devlive-hol.zip
 ```
 
-2. By this time your OKE cluster should be online and available.  Navigate to **Developer Services** --> **Kubernetes Clusters (OKE)** if you are not already on this console page.  Click on your cluster name **cluster1** to open the cluster properties page.  Locate and open the **Quick Start** shortcut link on the lower left navigation bar to open the **Quick Start: Deploy Sample App** instructions. 
+2. By this time your OKE cluster should be online and available.  In necessary, wait a few more moments. Navigate to **Developer Services** --> **Kubernetes Clusters (OKE)** if you are not already on this console page.  Click on your cluster name **cluster1** to open the cluster properties page.  Locate and open the **Quick Start** shortcut link on the lower left navigation bar to open the **Quick Start: Deploy Sample App** instructions. 
 
       ![Quick Start](images/Quick-Start.png)
 
